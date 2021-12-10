@@ -1,5 +1,4 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
@@ -23,6 +22,7 @@ export default function Home() {
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
+      <Link href='/coders'>See Coder Listing</Link>
       <Footer />
     </div>
   );
