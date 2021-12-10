@@ -6,7 +6,6 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -23,7 +22,6 @@ export default function Home() {
         velit esse cillum dolore eu fugiat nulla pariatur.
       </p>
       <Link href='/coders'>See Coder Listing</Link>
-      <Footer />
     </div>
   );
 }
